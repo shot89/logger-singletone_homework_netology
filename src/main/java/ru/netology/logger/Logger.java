@@ -8,8 +8,8 @@ public class Logger {
     }
 
     public static Logger getInstance() {
-        if (instance == null) return instance = new Logger();
-        else return instance;
+        if (instance == null) instance = new Logger();
+        return instance;
     }
 
     public void log(String msg) {
