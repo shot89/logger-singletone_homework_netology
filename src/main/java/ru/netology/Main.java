@@ -3,7 +3,6 @@ package ru.netology;
 import ru.netology.filter.Filter;
 import ru.netology.logger.Logger;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Main {
